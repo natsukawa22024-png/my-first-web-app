@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-</head>
-<body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is my first GitHub Pages deployment!</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+   <div class="dashboard-container"><!--全体を囲う要素-->
+
+    <aside class="sidebar">左側要素用<!--サイドバー全体を囲う要素-->
+      <header class="sidebar-header"><!--サイドバー内のヘッダーを囲う要素-->
+        <a href="#" class="sidebar-home" data-tab="Home"><!--ヘッダー内のリンク-->
+          <span class="ri-home-line"></span><!--リンク内のアイコン-->
+          <span>Home</span>
+        </a>
+      </header>
+    </aside><!--サイドバー全体を囲う要素-->
+   
+   <main class="main-content"><!--メインを囲う要素-->
+    <!--ホームセクション-->
+    <section class="content-section"  id="home">右側要素用
+      
+      <header class="section-header"><!--メインヘッダー囲い-->
+        <div class="profile-circle" >
+          <span class="ri-user-smile-line"></span>
+        </div>
+        <h1 class="section-title">
+          Welcome to Your Personal Dashboard
+        </h1>
+        <p class="section-subtitle">
+          Make your daily life more convenient and enjoyable
+        </p>
+      </header> 
+      <!--メインヘッダー囲い-->
+      <!--ホーム文-->
+      <div class="section-body">
+        <div class="section-description">
+         <p> This dashboard is a tool to enrich your daily life. You can easily use essential features such as diary entries, memo management, and checking weather information.
+         </p>
+         <p>
+          Small daily records become irreplaceable memories, and efficient task management leads to fulfilling days. Please use this as a partner that supports your everyday life.
+          </p>
+       </div>      
+      </div> 
+      <!--ホーム文-->
+
+     </section> <!--メインを囲う要素-->
+  
+   </div> <!--全体を囲う要素-->
+   </main>
+  </body>
 </html>
